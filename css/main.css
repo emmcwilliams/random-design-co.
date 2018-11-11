@@ -50,6 +50,17 @@ hr {
 }
 
 /*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+-/*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
@@ -97,7 +108,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   html {
+     box-sizing: border-box;
+   }
+   *, *:before, *:after {
+     box-sizing: inherit;
+   }
 
+   body {
+     border: 1px solid red;
+   }
 
 
 
