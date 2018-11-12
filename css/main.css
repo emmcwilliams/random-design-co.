@@ -105,7 +105,8 @@ textarea {
    }
 
    body {
-     border: 1px solid red;
+     font-family: sans-serif;
+     max-width: 100%
    }
 
   .page-header {
@@ -127,7 +128,35 @@ textarea {
     float: left;
   }
 
+.section1 {
+  clear: both;
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/purple-bg.jpeg);
+  padding: 6em 5em 4em 5em;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
 
+}
+
+.section1 h2 {
+  font-size: 3em;
+  line-height: 1;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  margin: 1em;
+  padding: .8em 1em;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
 
 
 
