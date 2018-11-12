@@ -193,12 +193,12 @@ button:hover {
     float: right;
     padding-right: 1em;
   }
-  .col1 article, .col2 article {
+  .first, .second {
     background: hsla(360, 100%, 100%, 0.8);
     position: relative;
     padding: 0 0 .3em .3em;
   }
-  .col1 article:hover, .col2 article:hover {
+  .first:hover, .second:hover {
     background: hsla(360, 100%, 50%, 0);
     color: #fff;
   }
