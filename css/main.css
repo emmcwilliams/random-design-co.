@@ -195,12 +195,12 @@ button:hover {
     float: right;
     padding-right: 1em;
   }
-  .first, .second, .third, .fourth, .fifth, .sixth, .seventh {
+  .first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eigth, .ninth, .tenth {
     background: hsla(360, 100%, 100%, 0.8);
     position: relative;
     padding: 0 0 .3em .3em;
   }
-  .first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover, .seventh:hover {
+  .first:hover, .second:hover, .third:hover, .fourth:hover, .fifth:hover, .sixth:hover, .seventh:hover, .eigth:hover, .ninth:hover, .tenth:hover {
     background: hsla(360, 100%, 50%, 0);
     color: #fff;
   }
